@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="3.0" method="upgrade">
+	<name>Package - Sj Directory Free</name>
+	<packagename>sj_directory_free</packagename>
+    <packager>YT Framework</packager>   
+	<creationDate>27/04/2017</creationDate>
+	<version>1.1.0</version>
+	<author> YouTech Company </author>
+	<authorEmail>support@Smartaddons.com</authorEmail>
+	<authorUrl>www.Smartaddons.com</authorUrl>
+	<copyright>Smartaddons</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later</license>
+   
+   <description><![CDATA[    	
+					<div class="alert" style="margin: 10px 0px 30px; padding:20px; ">
+						<a style="display:block;padding-bottom:30px; text-align:center;" href="http://www.smartaddons.com"><img src="http://www.smartaddons.com/images/smartaddons/logoSmartaddons.png" ></a>
+						<div class="alert alert-success ">	<i class="fa fa-check"></i> Sj Directory Free Templates 1.1.0 installation was successful</div>
+						<div class="alert alert-success ">	<i class="fa fa-check"></i> YT Framework plugin v3.0.3 installation was successful</div>
+					</div>	
+				]]>	
+				</description>    	
+    
+	<scriptfile>pkg_sj_directory_free.script</scriptfile>
+	<files folder="source">
+   		<file type="plugin" id="yt" group="system">yt</file>
+   		<file type="template" id="sj_directory_free" client="site">sj_directory_free</file>
+ 	</files>
+ 	
+</extension>
